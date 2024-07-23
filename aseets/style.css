@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit&display=swap');
+
+:root {
+    --cor-fort: #FF7D29;
+    --cor-media: #FFBF78;
+    --cor-fraca: #FFEEA9;
+    --cor-leve: #FEFFD2;
+    --font-titulo: "Bebas Neue", sans-serif;
+    --font-texto: "Outfit", sans-serif; 
+    --altura-rodape: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-leve);
+}
+
+.container {
+    display: block;
+    display: flex;
+    justify-content: center;
+    padding: 2% 5% 2% 5%;
+    gap: 70px;
+    width: 100%;
+    height: calc(100vh - var(--altura-rodape));
+}
+
+.foto-logo {
+    width: 6.25rem;
+    margin-top: 4px;
+}
+
+.txtarea {
+    width: 100%;
+    height: 70%;
+    background-color: transparent;
+    margin-top: 25px;
+    font-family: var(--font-texto);
+    font-size: 1.5rem;
+}
+
+.botoes {
+    width: 100%;
+    height: 67px;
+    margin-top: 50px;
+    margin-left: 15px;
+    font-family: var(--font-texto);
+    font-size: 14px;
+}
+
+.btn-criptografar {
+    width: 20.5rem;
+    height: 4.18rem;
+    background-color: var(--cor-fort);
+    border-radius: 16px;
+    font-family: var(--font-titulo);
+    font-size: 1.9rem;
+}
+
+.btn-criptografar:hover {  
+    top: -2px;
+    box-shadow: 0 2px 2px #666;
+    cursor: pointer;
+}
+
+.btn-descriptografar {
+    width: 20.5rem;
+    height: 4.18rem;
+    border: solid 2px var(--cor-fort);
+    background-color: var(--cor-fraca);
+    border-radius: 16px;
+    margin: 0 20px;
+    font-family: var(--font-titulo);
+    font-size: 1.9rem;
+}
+
+.btn-descriptografar:hover {  
+    top: -2px;
+    box-shadow: 0 2px 2px #666;
+    cursor: pointer;
+}
+
+.area-descriptografar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2%;
+    align-items: center;
+    width: 30%;
+    border-radius: 32px;
+    background-color: var(--cor-fraca);
+    
+}
+
+.foto-descriptografar {
+    max-width: 70%;
+    justify-items: center;
+    margin-top: 85px;
+}
+
+.txt-subtitulo {
+    margin: 6%;
+    font-family: var(--font-titulo);
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.txt-paragrafo {
+    margin: 4%;
+    font-family: var(--font-texto);
+    text-align: center;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-fort);
+    padding: 1%;
+    font-family: var(--font-texto);
+    bottom: 0;
+    height: var(--altura-rodape);
+}
+
+.ntn-copiar {
+    width: 15rem;
+    height: 2rem;
+    border: solid 2px var(--cor-fort);
+    background-color: var(--cor-fraca);
+    border-radius: 8px;
+    margin: 0 20px;
+    font-family: var(--font-titulo);
+    font-size: 1rem;
+}
+
+#txtareasaida {
+    width: 80%;
+    height: 80%;
+    margin: 4%;
+    font-family: var(--font-texto);
+    font-size: 1.2rem;
+    background-color: transparent;
+}
+

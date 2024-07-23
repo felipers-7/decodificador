@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificadorr</title>
+    <link rel="stylesheet" href="./aseets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <section  class="container">
+            <div class="area-entrada">
+                <div>
+                <img src="./aseets/Sem título-1.png" alt="logo" class="foto-logo">
+                </div>
+                <textarea name="txtarea" id="txtarea" class="txtarea" placeholder="Seja um ninja, criptografe aqui seu texto para seus inimigos não descobrirem."></textarea>
+                <div class="botoes">
+                    <p><i class="fas fa-exclamation-circle"></i> Apenas letras minúsculas e sem acento.</p>
+                    <button type="button" class="btn-criptografar" id="btn-criotografar" onclick="criptografar()">Criptografar</button>
+                    <button type="button" class="btn-descriptografar" id="btn-descriptografar" onclick="descriptografar()">Descriptografar</button>
+                </div>
+            </div>
+            <div class="area-descriptografar" id="txtsaida">
+                <img src="./aseets/card_naruto.png" alt="naruto" id="foto-descriptografar" class="foto-descriptografar">
+                <h2 class="txt-subtitulo">Nenhuma mensagem encontrada</h2>
+                <p class="txt-paragrafo">Ajude o Naruto, digite um texto que queira criptografar ou descriptografar</p>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </main>
+    <footer class="rodape">Desenvolvido por Felipe Silveira 2024</footer>
+</body>
+</html>
